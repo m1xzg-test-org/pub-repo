@@ -1,38 +1,53 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Please provide answers to the following questions to help us narrow down, reproduce,
+  and fix the problem. Issues not following the instructions may be deleted.
 title: ''
-labels: bug, help wanted
+labels: triage
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Triage
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Thursdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) and wix-users mailing lists, as well as in Discussions.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Discussions and support
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+Note that discussions are best held on the mailing lists not in issues. Please do not open issues requesting support or debugging help; first start a thread on the [wix-users](http://wixtoolset.org/documentation/mailinglist/#wix-users) mailing list and open an issue if the discussion suggests a bug in the WiX Toolset or that a feature request is appropriate. You can also try out the beta [Discussions](https://github.com/wixtoolset/issues/discussions?discussions_q=category%3AQuestions) feature.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Instructions
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+Read the sections above. Delete the Triage, Discussions and support, and Instructions sections and fill out the rest.
 
-**Additional context**
-Add any other context about the problem here.
+## Bugs
+
+If this issue is a bug:
+
+* Which version of WiX are you building with?
+
+> (WiX version in major.minor.release.build format)
+
+* Which version of Visual Studio are you building with (if any)?
+
+> (Visual Studio version, including year and update)
+
+* Which version of the WiX Toolset Visual Studio Extension are you building with (if any)?
+
+> (WiX Toolset Visual Studio Extension version in major.minor.release.build format)
+
+* Which version of .NET are you building with?
+
+> (.NET version)
+
+* If the problem occurs when installing your packages built with WiX, what is the version of Windows the package is running on?
+
+> (Windows version)
+
+* Describe the problem and the steps to reproduce it.
+
+> (Be as specific as you can and err on the side of providing too much information, including code, error messages, command lines you used to invoke the build, and so forth.)
+
+* Describe the behavior you expected and how it differed from the actual behavior.
+
+> (Be as specific as you can and err on the side of providing too much information.)

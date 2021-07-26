@@ -12,7 +12,7 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +%d-%b-%Y)"
       - name: Backup wiki
-        uses: m1xzg/auto_backup_wiki_action@v1
+        uses: Mine02C4/auto_backup_wiki_action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: wiki-${{ steps.date.outputs.date }}

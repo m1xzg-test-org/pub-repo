@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +%d-%b-%Y)"
+        run: echo "::set-output name=date::$(date +wk%U-%Y)"
       - name: Backup wiki
         uses: Mine02C4/auto_backup_wiki_action@v1
         with:
